@@ -1,14 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>picklecities</title>
+    <meta charset="utf-8" />
+    <title>PickleCities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PickleCities HTMX Webhosting" />
+    <meta name="author" content="HTMXPickle" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="css/bootstrap-responsive.css"
+      rel="stylesheet" />
+    <!-- <link
+      href="bootstrap/docs/assets/js/google-code-prettify/prettify.css"
+      rel="stylesheet" />
+    -->
+    <link href="bootswatch/bootswatch.css" rel="stylesheet" />
   </head>
-  <body>
-    <main>
-        <h1>Welcome to My COOOOOOL Website</h1>  
-    </main>
+
+  <body
+    id="top"
+    class="preview"
+    data-spy="scroll"
+    data-target=".subnav"
+    data-offset="80">
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a
+            class="btn btn-navbar"
+            data-toggle="collapse"
+            data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="">PickleCities</a>
+          <div class="nav-collapse" id="main-menu">
+            <ul class="nav" id="main-menu-left">
+              <li>
+                <a href="http://github.com/htmxpickle/picklecities.com"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank">Guestbook</a>
+              </li>
+              <li style="padding-top: 6px">
+                &nbsp;
+                <a
+                  href="https://twitter.com/share"
+                  class="twitter-share-button"
+                  data-text="FREE HTMX Hosting from @HTMXPickle"
+                  data-via="htmxpickle"
+                  data-size="large"
+                  >Tweet</a
+                >
+                <script>
+                  !(function (d, s, id) {
+                    var js,
+                      fjs = d.getElementsByTagName(s)[0];
+                    if (!d.getElementById(id)) {
+                      js = d.createElement(s);
+                      js.id = id;
+                      js.src = "http://platform.twitter.com/widgets.js";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }
+                  })(document, "script", "twitter-wjs");
+                </script>
+              </li>
+            </ul>
+            <ul class="nav pull-right" id="main-menu-right">
+              <li>
+                <a
+                  rel="tooltip"
+                  target="_blank"
+                  href="http://picklecities.com"
+                  title="FREE HTMX Website Hosting"
+                  >Free HTMX Website Hosting <i class="icon-share-alt"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Masthead
+================================================== -->
+      <header class="jumbotron subhead" id="overview">
+        <div class="row">
+          <div class="span6">
+            <h1>
+              <img src="images/test/construction.gif" />&nbsp;
+              <font color="#4Bff00">P</font><font color="#4Bff00">I</font>
+              <font color="#4Bff00">c</font>
+              <font color="#4Bff00">K</font>
+              <font color="#4Bff00">L</font>
+              <font color="#4Bff00">E</font>
+              <font color="#00ff00"> </font
+              ><blink
+                ><font color="#00ffB4">C</font><font color="#00ffff">I</font
+                ><font color="#00B4ff">T</font><font color="#005Aff">I</font
+                ><font color="#0000ff">E</font
+                ><font color="#4B00ff">S</font></blink
+              >
+            </h1>
+            <p class="lead">hello surfers!</p>
+            <table cellpadding="2" cellspacing="2">
+              <tr>
+                <td>
+                  <img src="images/test/ie_logo.gif" />
+                </td>
+                <td>
+                  <img src="images/test/ns_logo.gif" />
+                </td>
+                <td>
+                  <img src="images/test/notepad.gif" />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="span6">
+            <center>
+              <img src="images/test/yahooweek.gif" />
+              <img src="images/test/community.gif" />
+              <img src="images/test/wabwalk.gif" />
+              <img src="images/test/webtrips.gif" />
+            </center>
+          </div>
+        </div>
+        <marquee
+          ><img src="images/test/ohhellsyeah.gif" />hol up, we cookin. let him
+          cook.<img src="images/test/picklechef.gif"
+        /></marquee>
+        <!-- FIXME: Subnav -->
+        <!--
+        <div class="subnav">
+          <ul class="nav nav-pills">
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#navbar">Navbar</a></li>
+            <li>
+              <a href="#buttons"
+                ><img
+                  class="pull-left"
+                  style="margin-top: -5px"
+                  src="images/test/hot.gif" />
+                Buttons</a
+              >
+            </li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li>
+              <a href="#miscellaneous"
+                ><img
+                  class="pull-left"
+                  style="margin-top: -3px"
+                  src="images/test/new.gif" />
+                Miscellaneous</a
+              >
+            </li>
+          </ul>
+        </div>
+      -->
+        <!-- END: Subnav -->
+      </header>
+
+      <center>
+        <!-- TRIPLE MC HAMMER -->
+        <img src="images/test/mchammer.gif" />&nbsp;&nbsp;
+        <img src="images/hamsters/hamu1.gif" />&nbsp;&nbsp;
+        <img src="images/test/mchammer.gif" />
+      </center>
+
+      <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+        <p class="pull-left" style="margin-top: -14px">
+          <img src="images/test/geocities.jpg" />
+        </p>
+        <p class="pull-right" style="margin-top: -14px">
+          <img src="images/test/hacker.gif" />&nbsp;
+          <a href="http://twitter.com/htmxpickle">HTMXPickle</a>
+        </p>
+      </footer>
+      <center><img src="images/test/counter2.gif" /></center>
+    </div>
+    <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <script src="bootswatch/bootswatch.js"></script>
   </body>
 </html>
